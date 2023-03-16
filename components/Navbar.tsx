@@ -27,10 +27,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between w-full px-4 py-2 border-b-2 border-gray-200">
       <Link href="/">
-        <h1 className="relative text-3xl font-bold text-[#F51997]">
-          TITLE
-          {/* <Image className="cursor-pointer" src={Logo} alt="TikTik logo" fill /> */}
-        </h1>
+        <h1 className="relative text-3xl font-bold text-[#F51997]">TokTik</h1>
       </Link>
       <div className="relative hidden md:block">
         <form
